@@ -2,7 +2,7 @@ import pymongo
 import pandas as pd
 import json
 
-client=pymongo.MongoClient("mongodb+srv://Sandeep1231:<password>@cluster0.i2b4kej.mongodb.net/?retryWrites=true&w=majority")
+client=pymongo.MongoClient("mongodb+srv://Sandeep:Sandeep011@cluster0.i2b4kej.mongodb.net/?retryWrites=true&w=majority")
 
 DATA_FILE_PATH="C:/Users/nehak/OneDrive/Desktop/app/aps_failure_training_set1.csv"
 

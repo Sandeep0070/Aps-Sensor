@@ -1,0 +1,12 @@
+prefix=c:/Users/nehak/OneDrive/Desktop/app/venv/Library
+exec_prefix=c:/Users/nehak/OneDrive/Desktop/app/venv/Library
+libdir=c:/Users/nehak/OneDrive/Desktop/app/venv/Library/lib
+includedir=c:/Users/nehak/OneDrive/Desktop/app/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
